@@ -87,7 +87,7 @@ export default function LitterDetailsPage() {
 
       <Navbar />
 
-      <main className="min-h-screen bg-slate-50 py-16">
+      <main className="min-h-screen bg-slate-50 pt-28 py-16">
         <div className="max-w-5xl mx-auto px-4">
           <h1 className="text-3xl font-bold mb-8">{litter.name}</h1>
 

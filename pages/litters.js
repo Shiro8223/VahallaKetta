@@ -86,12 +86,18 @@ export default function Litters() {
                 <div key={i} className="rounded-xl bg-gray-100 animate-pulse h-64" />
               ))
             ) : filteredLitters.length > 0 ? (
-              filteredLitters.map((litter) => (
-                <Link key={litter.id} href={`/litters/${litter.id}`} className="block">
-                  <LitterCard litter={litter} getWeeksOld={getWeeksOld} />
-                </Link>
+              filteredLitters.map((litter) =>
+                litter.status === "planned" ? (
+                  <div key={litter.id} className="block">
+                    <LitterCard litter={litter} getWeeksOld={getWeeksOld} />
+                  </div>
+                ) : (
+                  <Link key={litter.id} href={`/litters/${litter.id}`} className="block">
+                    <LitterCard litter={litter} getWeeksOld={getWeeksOld} />
+                  </Link>
+                )
+              )
 
-              ))
             ) : (
               <div className="col-span-full text-center py-16">
                 <Star className="w-16 h-16 mx-auto mb-4 text-gray-300" />
