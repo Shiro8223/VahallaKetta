@@ -34,15 +34,26 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulated delay
-    await new Promise((resolve) => setTimeout(resolve, 2000));
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
-    setSubmitted(true);
-    setIsSubmitting(false);
-    setFormData({ name: "", email: "", subject: "", message: "" });
+      if (!res.ok) throw new Error("Email failed");
 
-    setTimeout(() => setSubmitted(false), 5000);
+      setSubmitted(true);
+      setFormData({ name: "", email: "", subject: "", message: "" });
+
+      setTimeout(() => setSubmitted(false), 5000);
+    } catch (err) {
+      alert("Something went wrong. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
+
 
   return (
     <>
