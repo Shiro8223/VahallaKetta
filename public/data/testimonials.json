@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "owner_name": "Sarah Mitchell",
+    "cat_name": "Luna",
+    "location": "Manchester, UK",
+    "testimonial": "Luna has been the perfect addition to our family. Her temperament is exactly as described - playful yet gentle with our children. The Viking spirit really shows in her confident personality! We couldn't be happier with our choice.",
+    "rating": 5,
+    "date": "2024-01-15"
+  },
+  {
+    "id": 2,
+    "owner_name": "James Kennedy",
+    "cat_name": "Thor",
+    "location": "Liverpool, UK",
+    "testimonial": "Exceptional breeding quality and outstanding customer service. The team at Vahalla really knows their craft. Highly recommend!",
+    "rating": 5,
+    "date": "2024-01-10"
+  },
+  {
+    "id": 3,
+    "owner_name": "Emma Thompson",
+    "cat_name": "Freya",
+    "location": "Leeds, UK",
+    "testimonial": "We were looking for an ethical breeder and found exactly that with Vahalla. Freya came to us well-socialized and healthy. The entire process was professional and caring. Thank you!",
+    "rating": 5,
+    "date": "2024-01-05"
+  }
+]

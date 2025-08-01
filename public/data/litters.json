@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "Winter Warriors",
+    "father_name": "Aris",
+    "mother_name": "Siggi",
+    "expected_generation": "F4",
+    "birth_date": "2024-01-15",
+    "expected_ready_date": "2024-04-15",
+    "status": "born",
+    "description": "Beautiful F4 litter from our finest breeding pair. These kittens show excellent markings and temperament.",
+    "images": [
+      "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=400&fit=crop&crop=center"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Loki's Legacy",
+    "status": "ready",
+    "birth_date": "2025-06-10",
+    "expected_ready_date": "2025-09-02",
+    "description": "This litter is from Loki and Freya.",
+    "father_name": "Loki",
+    "mother_name": "Freya",
+    "expected_generation": "F2",
+    "images": ["https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=400&fit=crop&crop=center"],
+    "kittens": [
+      {
+        "name": "Thorin",
+        "gender": "Male",
+        "images": [
+          "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=400&fit=crop&crop=center"
+        ],
+        "notes": "Very playful and social.",
+        "price": 400
+      },
+      {
+        "name": "Astrid",
+        "gender": "Female",
+        "images": [
+          "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=400&fit=crop&crop=center",
+          "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&h=400&fit=crop&crop=center",
+          "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=600&h=400&fit=crop&crop=center"
+        ],
+        "notes": "Loves cuddles and quiet time.",
+        "price": 500
+      }
+    ]
+
+  },
+  {
+    "id": 3,
+    "name": "Spring Legends",
+    "father_name": "Aris",
+    "mother_name": "Solvi",
+    "expected_generation": "F6",
+    "birth_date": "2024-03-01",
+    "expected_ready_date": "2024-05-24",
+    "status": "planned",
+    "description": "Upcoming F6 litter combining excellent bloodlines. Expected to have beautiful silver markings.",
+    "images": []
+  }
+]

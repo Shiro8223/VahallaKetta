@@ -4,7 +4,7 @@ import { format, differenceInWeeks } from "date-fns";
 import {
   Star, Calendar, Clock, Heart, Crown
 } from "lucide-react";
-
+import Link from "next/link"; 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -18,40 +18,17 @@ export default function Litters() {
   }, []);
 
   const loadLitters = async () => {
-    try {
-      // Replace with API call if needed
-      setLitters([
-        {
-          id: 1,
-          name: "Winter Warriors",
-          father_name: "Aris",
-          mother_name: "Siggi",
-          expected_generation: "F4",
-          birth_date: "2024-01-15",
-          expected_ready_date: "2024-04-15",
-          status: "born",
-          description: "Beautiful F4 litter from our finest breeding pair. These kittens show excellent markings and temperament.",
-          images: [
-            "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=400&fit=crop&crop=center"
-          ]
-        },
-        {
-          id: 2,
-          name: "Spring Legends",
-          father_name: "Aris",
-          mother_name: "Solvi",
-          expected_generation: "F6",
-          birth_date: "2024-03-01",
-          expected_ready_date: "2024-05-24",
-          status: "planned",
-          description: "Upcoming F6 litter combining excellent bloodlines. Expected to have beautiful silver markings.",
-          images: []
-        }
-      ]);
-    } finally {
-      setIsLoading(false);
-    }
-  };
+  try {
+    const res = await fetch("../data/litters.json");
+    const data = await res.json();
+    setLitters(data);
+  } catch (e) {
+    console.error("Failed to load litters.json", e);
+  } finally {
+    setIsLoading(false);
+  }
+};
+
 
   const getWeeksOld = (birthDate) =>
     differenceInWeeks(new Date(), new Date(birthDate));
@@ -110,7 +87,10 @@ export default function Litters() {
               ))
             ) : filteredLitters.length > 0 ? (
               filteredLitters.map((litter) => (
-                <LitterCard key={litter.id} litter={litter} getWeeksOld={getWeeksOld} />
+                <Link key={litter.id} href={`/litters/${litter.id}`} className="block">
+                  <LitterCard litter={litter} getWeeksOld={getWeeksOld} />
+                </Link>
+
               ))
             ) : (
               <div className="col-span-full text-center py-16">

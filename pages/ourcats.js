@@ -14,48 +14,17 @@ export default function OurCats() {
   }, []);
 
   const loadCats = async () => {
-    try {
-      setCats([
-        {
-          id: 1,
-          name: "Siggi",
-          type: "queen",
-          generation: "F3",
-          pattern: "Marbled",
-          image_url: "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=400&fit=crop&crop=center",
-          temperament: ["Social", "Playful", "Gentle"],
-          description: "Siggi is the matriarch of our cattery, known for her gentle demeanor.",
-          is_featured: true,
-        },
-        {
-          id: 2,
-          name: "Solvi",
-          type: "queen",
-          generation: "F6",
-          pattern: "Silver",
-          image_url: "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&h=400&fit=crop&crop=center",
-          temperament: ["Calm", "Affectionate", "Intelligent"],
-          description: "Solvi brings excellent maternal instincts and a beautiful silver coat.",
-          is_featured: true,
-        },
-        {
-          id: 3,
-          name: "Aris",
-          type: "stud",
-          generation: "F5",
-          pattern: "Golden Spotted",
-          image_url: "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=600&h=400&fit=crop&crop=center",
-          temperament: ["Confident", "Athletic", "Friendly"],
-          description: "A magnificent F5 stud with friendly, confident personality.",
-          is_featured: false,
-        }
-      ]);
-    } catch (e) {
-      console.error("Error loading cats:", e);
-    } finally {
-      setIsLoading(false);
-    }
-  };
+  try {
+    const res = await fetch("../data/cats.json");
+    const data = await res.json();
+    setCats(data);
+  } catch (e) {
+    console.error("Error loading cats:", e);
+  } finally {
+    setIsLoading(false);
+  }
+};
+
 
   const filteredCats = activeFilter === "all" ? cats : cats.filter(cat => cat.type === activeFilter);
   const studs = cats.filter(cat => cat.type === "stud");
