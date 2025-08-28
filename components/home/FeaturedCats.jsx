@@ -15,16 +15,15 @@ export default function FeaturedCats({ cats = [], isLoading = false }) {
         "Our beloved F3 marbled queen with exceptional temperament and stunning coat patterns.",
     },
     {
-      id: 2,
-      name: "Solvi",
-      type: "queen",
-      generation: "F6",
-      pattern: "Silver",
-      image_url:
-        "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&h=400&fit=crop&crop=center",
-      temperament: ["Calm", "Affectionate", "Intelligent"],
-      description:
-        "A graceful F6 silver mother known for her calm demeanor and loving nature.",
+      "id": 5,
+      "name": "Spike",
+      "type": "stud",
+      "generation": "F3",
+      "pattern": "Silver",
+      "image_url": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&h=400&fit=crop&crop=center",
+      "temperament": ["Calm", "Affectionate", "Intelligent"],
+      "description": "Spike is a social stud cat super friendly to all around him.",
+      "is_featured": true
     },
   ];
 
