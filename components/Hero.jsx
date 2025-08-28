@@ -47,8 +47,8 @@ export default function Hero() {
         </p>
 
         <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Ethical Savannah F4 & F7 breeding in North-West England. TICA registered,
-          Savannah Cat Association members since 2022.
+          Ethical Savannah F4 & F6 breeding in North-West England. TICA registered,
+          Savannah Cat Association members since 2020.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

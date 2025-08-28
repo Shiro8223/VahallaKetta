@@ -35,8 +35,8 @@ export default function Home() {
       <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <Stat icon={<Clock className="w-8 h-8 text-amber-600" />} bg="bg-amber-100" label="3+" sub="Years Experience" />
-            <Stat icon={<Crown className="w-8 h-8 text-teal-600" />} bg="bg-teal-100" label="F4 & F7" sub="Generations" />
+            <Stat icon={<Clock className="w-8 h-8 text-amber-600" />} bg="bg-amber-100" label="5+" sub="Years Experience" />
+            <Stat icon={<Crown className="w-8 h-8 text-teal-600" />} bg="bg-teal-100" label="F4 & F6" sub="Generations" />
             <Stat icon={<Award className="w-8 h-8 text-purple-600" />} bg="bg-purple-100" label="TICA" sub="Registered" />
             <Stat icon={<Users className="w-8 h-8 text-rose-600" />} bg="bg-rose-100" label="1.5K" sub="Instagram Followers" />
           </div>

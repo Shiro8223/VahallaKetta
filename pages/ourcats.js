@@ -55,7 +55,7 @@ export default function OurCats() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
             <Stat icon={<Crown className="w-8 h-8 text-amber-600" />} label={queens.length} sub="Queens" />
             <Stat icon={<Shield className="w-8 h-8 text-teal-600" />} label={studs.length} sub="Studs" />
-            <Stat icon={<Heart className="w-8 h-8 text-rose-600" />} label="F4 & F7" sub="Generations" />
+            <Stat icon={<Heart className="w-8 h-8 text-rose-600" />} label="F4 & F6" sub="Generations" />
             <Stat icon={<Filter className="w-8 h-8 text-purple-600" />} label="TICA" sub="Registered" />
           </div>
 

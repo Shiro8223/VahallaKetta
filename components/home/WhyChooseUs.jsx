@@ -6,14 +6,14 @@ export default function WhyChooseUs() {
       icon: Shield,
       title: "Ethical Breeding",
       description:
-        "TICA registered with strict ethical standards. Members of the Savannah Cat Association since 2022.",
+        "TICA registered with strict ethical standards. Members of the Savannah Cat Association since 2020.",
       color: "bg-amber-100 text-amber-600",
     },
     {
       icon: Crown,
       title: "Premium Lineage",
       description:
-        "Carefully selected F4 & F7 generations offering the perfect balance of wild beauty and domestic temperament.",
+        "Carefully selected F4 & F6 generations offering the perfect balance of wild beauty and domestic temperament.",
       color: "bg-purple-100 text-purple-600",
     },
     {
@@ -34,7 +34,7 @@ export default function WhyChooseUs() {
       icon: Clock,
       title: "Experience",
       description:
-        "Over 3 years of dedicated breeding experience in North-West England, near Bolton.",
+        "Over 5 years of dedicated breeding experience in North-West England, near Bolton.",
       color: "bg-green-100 text-green-600",
     },
     {

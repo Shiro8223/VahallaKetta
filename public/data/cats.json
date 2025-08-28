@@ -11,25 +11,25 @@
     "is_featured": true
   },
   {
-    "id": 2,
-    "name": "Solvi",
+    "id": 4,
+    "name": "Sassa",
     "type": "queen",
-    "generation": "F6",
-    "pattern": "Silver",
+    "generation": "F3",
+    "pattern": "Golden Spotted",
     "image_url": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&h=400&fit=crop&crop=center",
-    "temperament": ["Calm", "Affectionate", "Intelligent"],
-    "description": "Solvi brings excellent maternal instincts and a beautiful silver coat.",
+    "temperament": ["Playful", "Affectionate", "Intelligent"],
+    "description": "Sassa is a graceful f3 queen with a playful, curious personality.",
     "is_featured": true
   },
   {
-    "id": 3,
-    "name": "Aris",
+    "id": 5,
+    "name": "Spike",
     "type": "stud",
-    "generation": "F5",
-    "pattern": "Golden Spotted",
-    "image_url": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=600&h=400&fit=crop&crop=center",
-    "temperament": ["Confident", "Athletic", "Friendly"],
-    "description": "A magnificent F5 stud with friendly, confident personality.",
-    "is_featured": false
+    "generation": "F3",
+    "pattern": "Silver",
+    "image_url": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&h=400&fit=crop&crop=center",
+    "temperament": ["Calm", "Affectionate", "Intelligent"],
+    "description": "Spike is a social stud cat super friendly to all around him.",
+    "is_featured": true
   }
 ]

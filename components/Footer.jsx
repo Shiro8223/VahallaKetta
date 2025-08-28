@@ -53,7 +53,7 @@ export default function Footer() {
         {/* Bottom Line */}
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="norse-body text-gray-400 text-sm">
-            © 2022 Vahalla. All rights reserved. | Where Viking spirit meets Savannah grace.
+            © 2020 Vahalla. All rights reserved. | Where Viking spirit meets Savannah grace.
           </p>
         </div>
       </div>

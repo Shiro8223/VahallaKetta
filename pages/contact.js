@@ -196,10 +196,10 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
                     <a
-                      href="mailto:contact@valhallakittens.com"
+                      href="mailto:VahallaKettaSavannahs@outlook.com"
                       className="text-sm text-amber-600 hover:text-amber-700"
                     >
-                      contact@valhallakittens.com
+                      VahallaKettaSavannahs@outlook.com
                     </a>
                   </div>
                 </div>
@@ -248,7 +248,7 @@ export default function Contact() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Clock className="w-5 h-5 text-amber-400" />
-                  <span className="text-sm">Active Since 2022</span>
+                  <span className="text-sm">Active Since 2020</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="w-5 h-5 text-amber-400" />
@@ -266,7 +266,7 @@ export default function Contact() {
                     What generations do you breed?
                   </h4>
                   <p className="text-sm text-gray-600">
-                    We specialize in F4 and F7 Savannah cats, offering the
+                    We specialize in F4 and F6 Savannah cats, offering the
                     perfect balance of wild beauty and domestic temperament.
                   </p>
                 </div>
