@@ -25,5 +25,41 @@
     "testimonial": "We were looking for an ethical breeder and found exactly that with Vahalla. Freya came to us well-socialized and healthy. The entire process was professional and caring. Thank you!",
     "rating": 5,
     "date": "2024-01-05"
+  },
+  {
+    "id": 4,
+    "owner_name": "Emma Langford",
+    "cat_name": "Arnie",
+    "location": "UK",
+    "testimonial": "Arnie is confident, affectionate and loving. We received regular updates and photos before he arrived, and the whole process was smooth and reassuring after a bad prior experience. Truly amazing support!",
+    "rating": 5,
+    "date": "2023-05-03"
+  },
+  {
+    "id": 5,
+    "owner_name": "Georgia Davies",
+    "cat_name": "Tigger",
+    "location": "UK",
+    "testimonial": "Tigger is playful, cheeky and full of love. We were kept updated with photos and guidance all the way. Vahallaketta made the process stress-free and gave us all the advice we needed.",
+    "rating": 5,
+    "date": "2022-07-29"
+  },
+  {
+    "id": 6,
+    "owner_name": "Chris McManus",
+    "cat_name": "Tigger",
+    "location": "UK",
+    "testimonial": "Our kitten Tigger settled instantly thanks to great preparation and support. The updates before collection were brilliant, and Vahallaketta answered every question with care. Highly recommended!",
+    "rating": 5,
+    "date": "2022-07-29"
+  },
+  {
+    "id": 7,
+    "owner_name": "Jamie Pav",
+    "cat_name": "Eddie & Benny",
+    "location": "UK",
+    "testimonial": "Stephen and Stephanie are incredibly devoted. Our Savannah boys are affectionate, playful and clearly raised with love. The guidance on diet and care gave us total confidence. We couldn’t have asked for better breeders.",
+    "rating": 5,
+    "date": "2022-02-20"
   }
 ]
