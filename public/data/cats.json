@@ -5,7 +5,7 @@
     "type": "queen",
     "generation": "F3",
     "pattern": "Marbled",
-    "image_url": "../images/siggicard.png",
+    "image_url": "../images/siggiCard.png",
     "temperament": ["Social", "Playful", "Gentle"],
     "description": "Siggi is the matriarch of our cattery, known for her gentle demeanor.",
     "is_featured": true
