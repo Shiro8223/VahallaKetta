@@ -9,7 +9,7 @@ export default function FeaturedCats({ cats = [], isLoading = false }) {
       generation: "F3",
       pattern: "Marbled",
       image_url:
-        "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=400&fit=crop&crop=center",
+        "../images/siggiCard.png",
       temperament: ["Social", "Playful", "Gentle"],
       description:
         "Our beloved F3 marbled queen with exceptional temperament and stunning coat patterns.",
@@ -20,7 +20,7 @@ export default function FeaturedCats({ cats = [], isLoading = false }) {
       "type": "stud",
       "generation": "F3",
       "pattern": "Silver",
-      "image_url": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&h=400&fit=crop&crop=center",
+      "image_url": "..//images/spikeCard.png",
       "temperament": ["Calm", "Affectionate", "Intelligent"],
       "description": "Spike is a social stud cat super friendly to all around him.",
       "is_featured": true
