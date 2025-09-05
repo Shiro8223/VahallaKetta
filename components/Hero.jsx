@@ -3,8 +3,8 @@ import { Shield, Crown, ArrowRight } from "lucide-react";
 
 const images = [
   "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=1200&h=800&fit=crop&crop=center",
-  "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=1200&h=800&fit=crop&crop=center",
-  "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=1200&h=800&fit=crop&crop=center",
+  "/images/siggiHero.png",
+  "/images/kittensHero.png",
 ];
 
 export default function Hero() {
@@ -20,17 +20,22 @@ export default function Hero() {
   const goTo = (idx) => setCurrent(idx);
 
   return (
-    <section
-      className="relative h-[100vh] w-full flex items-center justify-center text-white"
-      style={{
-        backgroundImage: `url(${images[current]})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        transition: "background-image 1s ease",
-      }}
-    >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40 z-0"></div>
+    <section className="relative h-[100vh] w-full flex items-center justify-center text-white overflow-hidden">
+      {/* Background Images */}
+      <div className="absolute inset-0">
+        {images.map((src, idx) => (
+          <img
+            key={idx}
+            src={src}
+            alt={`Hero image ${idx + 1}`}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+              idx === current ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        ))}
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/40"></div>
+      </div>
 
       {/* Hero Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

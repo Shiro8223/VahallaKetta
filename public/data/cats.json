@@ -5,13 +5,13 @@
     "type": "queen",
     "generation": "F3",
     "pattern": "Marbled",
-    "image_url": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=400&fit=crop&crop=center",
+    "image_url": "../images/siggicard.png",
     "temperament": ["Social", "Playful", "Gentle"],
     "description": "Siggi is the matriarch of our cattery, known for her gentle demeanor.",
     "is_featured": true
   },
   {
-    "id": 4,
+    "id": 2,
     "name": "Sassa",
     "type": "queen",
     "generation": "F3",
@@ -22,14 +22,25 @@
     "is_featured": true
   },
   {
-    "id": 5,
+    "id": 3,
     "name": "Spike",
     "type": "stud",
     "generation": "F3",
     "pattern": "Silver",
-    "image_url": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&h=400&fit=crop&crop=center",
+    "image_url": "../images/spikeCard.png",
     "temperament": ["Calm", "Affectionate", "Intelligent"],
     "description": "Spike is a social stud cat super friendly to all around him.",
+    "is_featured": true
+  },
+  {
+    "id": 4,
+    "name": "Boo",
+    "type": "Queen",
+    "generation": "F6",
+    "pattern": "Golden Spotted",
+    "image_url": "../images/booCard.jpg",
+    "temperament": ["Shy", "Loving", "Athletic"],
+    "description": "Boo is a shy, loving cat and our most recent queen.",
     "is_featured": true
   }
 ]
