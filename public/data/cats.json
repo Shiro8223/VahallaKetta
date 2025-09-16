@@ -5,11 +5,15 @@
     "type": "queen",
     "generation": "F3",
     "pattern": "Marbled",
-    "image_url": "../images/siggiCard.png",
+    "images": [
+      "../images/siggiCard.png",
+      "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&h=400&fit=crop&crop=center"
+    ],
     "temperament": ["Social", "Playful", "Gentle"],
     "description": "Siggi is the matriarch of our cattery, known for her gentle demeanor.",
     "is_featured": true
   },
+
   {
     "id": 2,
     "name": "Sassa",
