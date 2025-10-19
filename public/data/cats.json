@@ -14,18 +14,6 @@
     "description": "Siggi is the matriarch of our cattery, known for her gentle demeanor.",
     "is_featured": true
   },
-
-  {
-    "id": 2,
-    "name": "Sassa",
-    "type": "queen",
-    "generation": "F3",
-    "pattern": "Golden Spotted",
-    "image_url": "https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=600&h=400&fit=crop&crop=center",
-    "temperament": ["Playful", "Affectionate", "Intelligent"],
-    "description": "Sassa is a graceful f3 queen with a playful, curious personality.",
-    "is_featured": true
-  },
   {
     "id": 3,
     "name": "Spike",
@@ -33,6 +21,11 @@
     "generation": "F3",
     "pattern": "Silver",
     "image_url": "../images/spikeCard.png",
+    "images": [
+      "../images/spikeCard.png",
+      "../images/spikePhoto1.jpg",
+      "../images/spikePhoto2.jpg"
+    ],
     "temperament": ["Calm", "Affectionate", "Intelligent"],
     "description": "Spike is a social stud cat super friendly to all around him.",
     "is_featured": true
@@ -40,7 +33,7 @@
   {
     "id": 4,
     "name": "Boo",
-    "type": "Queen",
+    "type": "queen",
     "generation": "F6",
     "pattern": "Golden Spotted",
     "image_url": "../images/booCard.jpg",
