@@ -150,7 +150,7 @@ export default function Testimonials() {
                 for life.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="mailto:contact@vahalla.com?subject=Inquiry about Savannah Kittens">
+                <a href="/contact">
                 <button className="px-8 py-3 bg-amber-600 hover:bg-amber-700 text-white rounded-xl font-medium transition-colors duration-200">
                     Contact Us Today
                 </button>
