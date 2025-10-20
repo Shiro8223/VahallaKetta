@@ -151,7 +151,6 @@ function LitterCard({ litter, getWeeksOld }) {
       <div className="p-6">
         <div className="flex justify-between items-center mb-2">
           <h3 className="text-xl font-bold text-gray-900">{litter.name}</h3>
-          <Heart className="w-5 h-5 text-gray-400 hover:text-rose-500 cursor-pointer" />
         </div>
 
         <div className="grid grid-cols-2 gap-4 mb-4">
