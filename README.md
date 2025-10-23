@@ -1,40 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Vahalla Ketta Savannahs 🐾
 
-## Getting Started
+A fully responsive, production-ready website built for **Vahalla Ketta Savannahs**, a professional Savannah cat breeder based in the UK.  
+This project focuses on creating a calm, elegant, and modern browsing experience that reflects the brand’s premium identity and commitment to ethical breeding.
 
-First, run the development server:
+🔗 **Live Website:** [vahallakettasavannahs.co.uk](https://vahallakettasavannahs.co.uk)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧰 Tech Stack
+- **Framework:** Next.js 14  
+- **Styling:** Tailwind CSS  
+- **Deployment:** Vercel  
+- **Content:** JSON-based data structure for cat listings and litter details  
+- **Version Control:** GitHub  
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## ✨ Key Features
+- **Responsive Design:** Works seamlessly across desktop, tablet, and mobile.  
+- **Dynamic Pages:** Each litter and kitten has its own page, generated dynamically from JSON data.  
+- **Optimised Performance:** Lightweight components and image optimization ensure fast load times.  
+- **SEO Friendly:** Semantic structure and metadata implemented for search visibility.  
+- **Scalable Architecture:** Easy to update or expand with new litters, kittens, or pages.  
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧩 Project Overview
+This project was commissioned by **Vahalla Ketta Savannahs** as a redesign and rebuild of their online presence.  
+The goal was to provide a clean, modern, and easily maintainable website that helps connect the breeder with potential clients.  
 
-## Learn More
+Key goals achieved:
+- Improved visual design and navigation flow.  
+- Centralized all litter and kitten information into structured data for easier management.  
+- Delivered a fast, elegant, and low-maintenance front-end solution.  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## 🧑‍💻 Developer Notes
+This website was developed independently as a client project to strengthen experience with **Next.js**, **Tailwind CSS**, and modern responsive design principles.  
+Throughout development, the focus was on accessibility, performance, and long-term maintainability.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📈 Future Improvements
+- Implementing a CMS (such as Sanity or Strapi) for non-technical content updates.  
+- Adding animations and gallery enhancements for better user engagement.  
+- Optional admin dashboard for litter management.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 📬 Contact
+Developed by **Shaun Taylor**  
+📍 Salford, UK  
+🌐 [LinkedIn](https://www.linkedin.com/in/shaun-taylor-5796b8288)  
+💻 [Portfolio Website](ShaunTaylor.site)  
+
+---
+
+> ⚠️ *This repository is for portfolio and educational purposes only. All branding, images, and written content belong to Vahalla Ketta Savannahs and are used with permission.*
